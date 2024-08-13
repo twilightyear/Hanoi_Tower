@@ -2,9 +2,10 @@
 <img width="482" alt="image" src="https://github.com/twilightyear/Hanoi_Tower/assets/80385994/f5c411c7-f262-4c8c-b3ce-6598c15d1400">
 
 
-먼저 Macbook 에서는
-#include <std_lib_facilities.h> 이렇게 사용할 시 사용이 어렵다. 그렇기에
-직접적인 루트 명시로 해당 헤더파일의 사용을 가능하게 했다.
+먼저 현재 개발환경인 Macos 에서는 사용자가 임의로 헤더파일을 추가하려고 했을때,
+#include <std_lib_facilities.h> 
+이렇게 사용할 시 편한 사용은 힘들다는 점을 파악했다.
+그렇기에 간편한 해결방법으로 실질적인 경로의 명시로 해당 헤더파일의 사용을 가능하게 했다.
 
 
 
